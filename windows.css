@@ -1,0 +1,16 @@
+body {
+    background-color:#666;
+}
+
+#container {
+    position:relative;
+    height:80vmin;
+    width:80vmin;
+    outline: 5px solid black;
+}
+
+.innerSquare {
+    position:absolute;
+    margin:0;
+    padding:0;
+}
