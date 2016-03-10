@@ -1,16 +1,18 @@
 body {
-    background-color:#666;
+    background-color:lightblue;
 }
 
 #container {
     position:relative;
     height:80vmin;
     width:80vmin;
-    outline: 5px solid black;
+    outline: 2.5vmin solid black;
 }
 
 .innerSquare {
     position:absolute;
     margin:0;
-    padding:0;
+    transition-property:background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
